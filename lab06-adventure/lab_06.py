@@ -54,11 +54,11 @@ def main():
         elif text.lower() == "kanye":
             print("Se abren las puertas del infierno y caes al fuego eterno. Gilipollas.")
             print("\nFin.")
-            done = True
+            break
         else:
             print("No sabes a donde ir y un plátano te empuja contra el suelo. Te rompes la cabeza y te mueres por el traumatismo craneoncefálico.")
             print("\nFin.")
-            done = True
+            break
 
         if next_room == None:
             print("Intentas dirigirte hacia una pared, te chocas y procedes a quedarte pensando momentáneamente por qué has hecho eso. Continuas pensando hacia dónde ir.")

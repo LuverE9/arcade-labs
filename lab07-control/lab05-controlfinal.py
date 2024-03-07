@@ -4,7 +4,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 MOVEMENT_SPEED = 4
 
-class Banana:
+class Banana: # cambio cambioso
     def __init__(self,position_x,position_y,change_x,change_y,color):
         self.position_x = position_x
         self.position_y = position_y
